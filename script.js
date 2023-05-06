@@ -8,8 +8,8 @@ twitterBtn = document.querySelector('.twitter')
 
 
 function randomQuote() {
-    quotBtn.classList.add('loading');
-    quotBtn.innerText = "Loading Quotes....";
+    quotBtn.classList.add('loading!!');
+    quotBtn.innerText = "Loading Quotes..";
     // this fetches random quotes/data from the API and parsing it into javaScript object
 fetch('https://api.quotable.io/random').then(res => res.json()).then( result => {
 console.log(result)
